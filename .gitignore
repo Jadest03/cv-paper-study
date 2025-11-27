@@ -1,0 +1,19 @@
+# Mac 시스템 파일 무시
+.DS_Store
+
+# Python 자동 생성 파일 무시
+__pycache__/
+*.pyc
+
+# Colab/Jupyter 관련 무시 (체크포인트)
+.ipynb_checkpoints
+
+# 가상환경 폴더 무시 (혹시 만들 경우)
+venv/
+env/
+.env
+
+# 데이터셋 및 모델 가중치 (용량이 커서 제외)
+data/
+*.pth
+*.h5
