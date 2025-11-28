@@ -1,8 +1,9 @@
-# ResNet Implementation (PyTorch) 🚀
+# ResNet Implementation
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jadest03/cv-paper-study/blob/main/resnet/ResNet_18_CIFAR.ipynb)
 
 ## 1. 개요 (Overview)
-이 프로젝트는 **ResNet-18** 모델을 PyTorch를 사용하여 밑바닥부터 구현(Implementation from scratch)하고, CIFAR-10 데이터셋으로 학습시킨 결과입니다.
+이 프로젝트는 **ResNet**논문을 읽고 PyTorch를 사용하여 **ResNet-18** 모델을 구현하고, CIFAR-10 데이터셋으로 학습하였습니다.
+공부 중 작성하여 틀린 부분이 있을 수 있습니다.
 
 * **Title**: Deep Residual Learning for Image Recognition (ResNet)
 * **Link**: [Original Paper](https://arxiv.org/abs/1512.03385)
@@ -15,7 +16,7 @@
 * **Dataset**: CIFAR-10
 
 ## 3. 학습 결과 (Results)
-20 Epoch 학습 후 다음과 같은 성능을 달성했습니다.
+20 Epoch 학습을 진행하였고 다음과 같은 성능을 달성하였습니다.
 
 | Metric | Value |
 | :--- | :--- |
